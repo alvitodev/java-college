@@ -1,2 +1,1 @@
-"# java-college" 
-"Java archive for college" 
+Java archive for college
