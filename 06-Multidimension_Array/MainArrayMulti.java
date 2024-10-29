@@ -1,0 +1,16 @@
+package Pertemuan6;
+
+public class MainArrayMulti {
+    public static void main(String[] args) {
+        int baris, kolom;
+        int[][] bil = {
+            {1,2,35,7,10},
+            {6,7,4,1,0}
+        };
+        for (baris = 0; baris < 2; baris++) {
+            for (kolom = 0; kolom < 5; kolom++) {
+                System.out.println("Data [" + baris + "," + kolom + "] = " + bil[baris][kolom]);
+            }
+        }
+    }
+}
