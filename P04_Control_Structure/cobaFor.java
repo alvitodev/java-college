@@ -1,3 +1,6 @@
+package P04_Control_Structure;
+
+
 public class cobaFor {
     public static void main(String[] args) {
         int jml = 0;

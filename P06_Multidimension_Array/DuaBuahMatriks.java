@@ -1,4 +1,4 @@
-package Pertemuan6;
+package P06_Multidimension_Array;
 import javax.swing.JOptionPane;
 
 public class DuaBuahMatriks {

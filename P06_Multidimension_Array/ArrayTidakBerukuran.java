@@ -1,4 +1,4 @@
-package Pertemuan6;
+package P06_Multidimension_Array;
 
 public class ArrayTidakBerukuran {
     public static void main(String[] args) {

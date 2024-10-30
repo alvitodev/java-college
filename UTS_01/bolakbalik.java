@@ -1,4 +1,4 @@
-package UTS;
+package UTS_01;
 import java.util.Scanner;
 
 public class bolakbalik {
@@ -9,5 +9,6 @@ public class bolakbalik {
         int i = Integer.parseInt(angka);
         int j = i / 5;
         System.out.println("Dia harus bolak balik sebanyak " + j + " kali");
+        input.close();
     }
 }

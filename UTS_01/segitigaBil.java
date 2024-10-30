@@ -1,4 +1,4 @@
-package UTS;
+package UTS_01;
 import java.util.Scanner;
 public class segitigaBil {
     public static void main(String[] args) {
@@ -12,5 +12,6 @@ public class segitigaBil {
             }
             System.out.println();
         }
+        scanner.close();
     }
 }

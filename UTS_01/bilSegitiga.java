@@ -1,4 +1,4 @@
-package UTS;
+package UTS_01;
 import java.util.Scanner;
 public class bilSegitiga {
     public static void main(String[] args) {
@@ -11,6 +11,7 @@ public class bilSegitiga {
             for (int j = i; j <= i; j++) {
             System.out.print(j+" ");
         }
+        input.close();
     }
     }
 }

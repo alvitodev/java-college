@@ -1,3 +1,5 @@
+package P11_Java_Database;
+
 import java.sql.*;
 
 public class JDBC {

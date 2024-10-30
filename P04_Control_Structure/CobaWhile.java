@@ -1,3 +1,6 @@
+package P04_Control_Structure;
+
+
 public class CobaWhile {
     public static void main(String[] args) {
         double r=0;

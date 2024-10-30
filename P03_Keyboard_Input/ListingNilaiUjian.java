@@ -1,3 +1,4 @@
+package P03_Keyboard_Input;
 public class ListingNilaiUjian {
   public static void main(String[] args) {
       // Data mahasiswa

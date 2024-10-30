@@ -1,3 +1,4 @@
+package P04_Control_Structure;
 public class Faktorial {
     public static void main(String[] args) {
         long batas = 4;

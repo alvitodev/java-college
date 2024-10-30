@@ -1,4 +1,4 @@
-package Pertemuan7;
+package P07_Exception_Handling_and_Method;
 
 public class segiempat {
     public void segiempat(int panjang, int lebar) {

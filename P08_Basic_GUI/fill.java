@@ -1,13 +1,14 @@
+package P08_Basic_GUI;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class fil extends JFrame {
+public class fill extends JFrame {
     JTextArea nama = new JTextArea(10, 10);
     JButton bt = new JButton("Copy");
     JTextArea txnama = new JTextArea(10, 10);
 
-    fil() {
+    void fill() {
         super("INI ADALAH FORM");
         setLocation(200, 300);
         setSize(400, 300);
@@ -31,7 +32,7 @@ public class fil extends JFrame {
     }
 
     public static void main(String args[]) {
-        fil f = new fil();
+        fill f = new fill();
         f.tampilan();
     }
 }

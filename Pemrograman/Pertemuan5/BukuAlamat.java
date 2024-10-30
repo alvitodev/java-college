@@ -1,3 +1,5 @@
+package Pemrograman.Pertemuan5;
+
 public class BukuAlamat {
     public static void main(String[] args) {
         // Inisialisasi array multidimensi untuk buku alamat

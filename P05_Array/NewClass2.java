@@ -1,3 +1,5 @@
+package P05_Array;
+
 import javax.swing.*;
 
 public class NewClass2 {

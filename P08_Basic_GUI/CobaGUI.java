@@ -1,3 +1,4 @@
+package P08_Basic_GUI;
 import javax.swing.*;
 import java.awt.*;
 class CobaGUI extends JFrame {

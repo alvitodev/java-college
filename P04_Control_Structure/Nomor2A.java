@@ -1,3 +1,5 @@
+package P04_Control_Structure;
+
 public class Nomor2A {
     public static void main(String[] args) {
         int base1 = 4, power1 = 3, 

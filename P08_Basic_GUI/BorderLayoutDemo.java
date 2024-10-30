@@ -1,3 +1,5 @@
+package P08_Basic_GUI;
+
 import java.awt.*;
 public class BorderLayoutDemo extends Frame {
     public static void main(String[] args) {

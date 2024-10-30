@@ -1,3 +1,4 @@
+package P03_Keyboard_Input;
 import java.util.Scanner;
 
 public class WhileLoop {

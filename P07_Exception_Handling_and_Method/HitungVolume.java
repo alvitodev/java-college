@@ -1,4 +1,4 @@
-package Pertemuan7;
+package P07_Exception_Handling_and_Method;
 import java.util.Scanner;
 
 public class HitungVolume {

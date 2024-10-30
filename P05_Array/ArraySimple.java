@@ -1,3 +1,5 @@
+package P05_Array;
+
 public class ArraySimple {
     public static void main(String[] args) {
         int[] ages = new int[100];

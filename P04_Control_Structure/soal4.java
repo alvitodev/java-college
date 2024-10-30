@@ -1,3 +1,5 @@
+package P04_Control_Structure;
+
 import javax.swing.*;
 public class soal4 {
     public static void main(String[] args) {

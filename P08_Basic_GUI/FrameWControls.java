@@ -1,3 +1,4 @@
+package P08_Basic_GUI;
 import java.awt.*;
 public class FrameWControls extends Frame {
     public static void main(String[] args) {

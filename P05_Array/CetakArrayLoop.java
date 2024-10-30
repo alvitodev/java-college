@@ -1,3 +1,5 @@
+package P05_Array;
+
 public class CetakArrayLoop {
     public static void main(String[] args) {
         int data[] = {4,5,4,2,8,4,2,11};

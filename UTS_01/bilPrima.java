@@ -1,4 +1,4 @@
-package UTS;
+package UTS_01;
 public class bilPrima {
     public static void main(String[] args) {
         System.out.print("Bilangan prima dari 1-100: ");

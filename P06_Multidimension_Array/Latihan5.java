@@ -1,4 +1,4 @@
-package Pertemuan6;
+package P06_Multidimension_Array;
 
 public class Latihan5 {
     public static void main(String[] args) {
