@@ -3,7 +3,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class fill extends JFrame {
+public class fillwindow extends JFrame {
     JTextArea nama = new JTextArea(10, 10);
     JButton bt = new JButton("Copy");
     JTextArea txnama = new JTextArea(10, 10);
@@ -32,7 +32,7 @@ public class fill extends JFrame {
     }
 
     public static void main(String args[]) {
-        fill f = new fill();
+        fillwindow f = new fillwindow();
         f.tampilan();
     }
 }

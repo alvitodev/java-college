@@ -1,6 +1,6 @@
 package P07_Exception_Handling_and_Method;
 
-public class segiempat {
+public class segi4 {
     public void segiempat(int panjang, int lebar) {
         double luas;
         luas = panjang*lebar;
@@ -12,7 +12,7 @@ public class segiempat {
     }
 
     public static void main(String args[]) {
-        segiempat se=new segiempat();
+        segi4 se=new segi4();
         se.segiempat(10, 5);
     }
 }

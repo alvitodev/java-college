@@ -1,6 +1,4 @@
 package P12_Create_Class;
-import java.awt.Color;
-import java.awt.*;
 public class StudentRecord {
     private String name;
     private String address;
@@ -8,7 +6,6 @@ public class StudentRecord {
     private double mathGrade;
     private double englishGrade;
     private double scienceGrade;
-    private double average;
 
     private static int studentCount;
     // Menghasilkan nama dari Siswa

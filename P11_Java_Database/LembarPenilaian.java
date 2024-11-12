@@ -15,6 +15,7 @@ public class LembarPenilaian extends JFrame {
     private Connection con;
     private Statement st;
 
+    @SuppressWarnings("unused")
     public LembarPenilaian() {
         // Inisialisasi koneksi ke database
         try {
