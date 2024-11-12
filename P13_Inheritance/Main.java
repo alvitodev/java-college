@@ -1,19 +1,20 @@
 package P13_Inheritance;
 
-// Main program: Main.java
+// Program utama: Main.java
 public class Main {
+
     public static void main(String[] args) {
-        // Creating an instance of AdvancedStudentRecord
-        AdvancedStudentRecord student = new AdvancedStudentRecord(
-            "John Doe", 16, 85.0, 90.0, 88.0, "Intermediate"
+        // Membangun objek ExtendStudentRecord
+        ExtendStudentRecord student = new ExtendStudentRecord(
+                "Badrol Salim", 20, 96.0, 70.0, 65.0, "Lanjutan"
         );
 
-        // Display the student information including computer knowledge level
-        student.displayInfo();
+        // Menampilkan informasi siswa termasuk tingkat pengetahuan komputer
+        student.getDetails();
 
-        // Changing the computer knowledge level
-        student.setComputerKnowledgeLevel("Advanced");
-        System.out.println("\nAfter updating Computer Knowledge Level:");
-        student.displayInfo();
+        // Mengubah tingkat pengetahuan komputer
+        student.setComputerKnowledgeLevel("Pemula");
+        System.out.println("\nSetelah memperbarui Tingkat Pengetahuan Komputer:");
+        student.getDetails();
     }
 }

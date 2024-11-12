@@ -1,51 +1,31 @@
 package P13_Inheritance;
 
-
+// Ekstensi StudentRecord: ExtendStudentRecord.java
 public class ExtendStudentRecord extends StudentRecord {
-    private List<String> programmingLanguages;
-    private List<String> projects;
-    private List<String> certifications;
 
-    // Constructor
-    public ExtendStudentRecord(String name, int age, List<String> programmingLanguages,
-                                 List<String> projects, List<String> certifications) {
-        super(name, age); // Call to superclass constructor
-        this.programmingLanguages = programmingLanguages;
-        this.projects = projects;
-        this.certifications = certifications;
+    // Atribut privat untuk menyimpan tingkat pengetahuan komputer
+    private String computerKnowledgeLevel;
+
+    // Konstruktor untuk memperluas objek StudentRecord
+    // Mendapat semua informasi dari StudentRecord dan tingkat pengetahuan komputer
+    public ExtendStudentRecord(String name, int age, double englishScore, double scienceScore, double mathScore, String computerKnowledgeLevel) {
+        super(name, age, englishScore, scienceScore, mathScore);
+        this.computerKnowledgeLevel = computerKnowledgeLevel;
     }
 
-    // Getters and Setters
-    public List<String> getProgrammingLanguages() {
-        return programmingLanguages;
-    }
-
-    public void setProgrammingLanguages(List<String> programmingLanguages) {
-        this.programmingLanguages = programmingLanguages;
-    }
-
-    public List<String> getProjects() {
-        return projects;
-    }
-
-    public void setProjects(List<String> projects) {
-        this.projects = projects;
-    }
-
-    public List<String> getCertifications() {
-        return certifications;
-    }
-
-    public void setCertifications(List<String> certifications) {
-        this.certifications = certifications;
-    }
-
-    // Override displayRecord method
     @Override
-    public void displayRecord() {
-        super.displayRecord(); // Call superclass method to display basic student info
-        System.out.println("Programming Languages: " + programmingLanguages);
-        System.out.println("Projects: " + projects);
-        System.out.println("Certifications: " + certifications);
+    public void getDetails() {
+        super.getDetails();
+        System.out.println("Tingkat Pengetahuan Komputer: " + computerKnowledgeLevel);
+    }
+
+    // Metode untuk mengubah tingkat pengetahuan komputer
+    public void setComputerKnowledgeLevel(String level) {
+        this.computerKnowledgeLevel = level;
+    }
+
+    // Metode untuk mendapatkan tingkat pengetahuan komputer
+    public String getComputerKnowledgeLevel() {
+        return computerKnowledgeLevel;
     }
 }
