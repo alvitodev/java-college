@@ -1,29 +1,29 @@
 package P13_Inheritance;
 
-// Assuming StudentRecord is the superclass
+// Subclass: AdvancedStudentRecord.java
 public class AdvancedStudentRecord extends StudentRecord {
-    private String computerKnowledgeLevel;
+    private String computerKnowledgeLevel; // Additional attribute
 
     // Constructor
-    public AdvancedStudentRecord(String name, int age, double grade1, double grade2, double grade3, String computerKnowledgeLevel) {
-        super(name, age, grade1, grade2, grade3);
+    public AdvancedStudentRecord(String name, int age, double englishScore, double scienceScore, double mathScore, String computerKnowledgeLevel) {
+        super(name, age, englishScore, scienceScore, mathScore);
         this.computerKnowledgeLevel = computerKnowledgeLevel;
+    }
+
+    // Override displayInfo method to include computer knowledge level
+    @Override
+    public void displayInfo() {
+        super.displayInfo();
+        System.out.println("Computer Knowledge Level: " + computerKnowledgeLevel);
+    }
+
+    // Setter for computer knowledge level
+    public void setComputerKnowledgeLevel(String level) {
+        this.computerKnowledgeLevel = level;
     }
 
     // Getter for computer knowledge level
     public String getComputerKnowledgeLevel() {
         return computerKnowledgeLevel;
-    }
-
-    // Setter for computer knowledge level
-    public void setComputerKnowledgeLevel(String computerKnowledgeLevel) {
-        this.computerKnowledgeLevel = computerKnowledgeLevel;
-    }
-
-    // Overriding displayInfo method to include computer knowledge level
-    @Override
-    public void displayInfo() {
-        super.displayInfo(); // Call the superclass method to display basic information
-        System.out.println("Computer Knowledge Level: " + computerKnowledgeLevel);
     }
 }

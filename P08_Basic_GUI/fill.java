@@ -9,7 +9,7 @@ public class fill extends JFrame {
     JTextArea txnama = new JTextArea(10, 10);
 
     void fill() {
-        super("INI ADALAH FORM");
+        // super("INI ADALAH FORM");
         setLocation(200, 300);
         setSize(400, 300);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
