@@ -10,34 +10,6 @@ public class StudentRecord {
     private double scienceGrade;
     private double average;
 
-    // Akses dasar terhadap variabel
-    int name;
-    // Akses dasar terhadap metode
-    String getName() {
-        return name;
-    }
-
-    // Akses pada variabel
-    public int name;
-    // Akses dasar terhadap metode
-    public String getName() {
-        return name;
-    }
-
-    // Akses dasar terhadap variabel
-    protected int name;
-    // Akses dasar terhadap metode
-    protected String getName() {
-        return name;
-    }
-
-    // Akses dasar terhadap variabel
-    private int name;
-    // Akses dasar terhadap metode
-    private String getName() {
-        return name;
-    }
-
     private static int studentCount;
     // Menghasilkan nama dari Siswa
     public String getName() {
